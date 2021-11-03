@@ -64,6 +64,51 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-hexo部署" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/Quitintmian/Quitintmian.github.io.git/2021/11/04/hexo%E9%83%A8%E7%BD%B2/" class="article-date">
+  <time datetime="2021-11-03T18:44:21.000Z" itemprop="datePublished">2021-11-04</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/Quitintmian/Quitintmian.github.io.git/2021/11/04/hexo%E9%83%A8%E7%BD%B2/">hexo部署</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="Hexo-部署流程"><a href="#Hexo-部署流程" class="headerlink" title="Hexo 部署流程"></a>Hexo 部署流程</h1><h5 id="1-安装node-js和git"><a href="#1-安装node-js和git" class="headerlink" title="1.安装node.js和git"></a>1.安装node.js和git</h5><h5 id="2-在github仓库创建形如username-github-io的仓库"><a href="#2-在github仓库创建形如username-github-io的仓库" class="headerlink" title="2.在github仓库创建形如username.github.io的仓库"></a>2.在github仓库创建形如<code>username.github.io</code>的仓库</h5><h5 id="3-安装hexo脚手架"><a href="#3-安装hexo脚手架" class="headerlink" title="3.安装hexo脚手架"></a>3.安装hexo脚手架</h5><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
+<h5 id="4-安装-Hexo-完成后，在空文件加下进行初始化"><a href="#4-安装-Hexo-完成后，在空文件加下进行初始化" class="headerlink" title="4.安装 Hexo 完成后，在空文件加下进行初始化"></a>4.安装 Hexo 完成后，在空文件加下进行初始化</h5><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init</span><br></pre></td></tr></table></figure>
+<h5 id="5-安装部署工具"><a href="#5-安装部署工具" class="headerlink" title="5.安装部署工具"></a>5.安装部署工具</h5><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
+<h5 id="6-生成项目文件"><a href="#6-生成项目文件" class="headerlink" title="6.生成项目文件"></a>6.生成项目文件</h5><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g</span><br></pre></td></tr></table></figure>
+<h5 id="7-本地测试，默认端口4000"><a href="#7-本地测试，默认端口4000" class="headerlink" title="7.本地测试，默认端口4000"></a>7.本地测试，默认端口4000</h5><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo s</span><br></pre></td></tr></table></figure>
+<h5 id="8-在source-post目录下的md文件中编写博客"><a href="#8-在source-post目录下的md文件中编写博客" class="headerlink" title="8.在source\_post目录下的md文件中编写博客"></a>8.在source\_post目录下的md文件中编写博客</h5><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo n &quot;博客标题&quot;</span><br></pre></td></tr></table></figure>
+<h5 id="9-生成项目文件"><a href="#9-生成项目文件" class="headerlink" title="9.生成项目文件"></a>9.生成项目文件</h5><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g</span><br></pre></td></tr></table></figure>
+<h5 id="10-本地测试，默认端口4000"><a href="#10-本地测试，默认端口4000" class="headerlink" title="10.本地测试，默认端口4000"></a>10.本地测试，默认端口4000</h5><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo s</span><br></pre></td></tr></table></figure>
+<h5 id="11-发布到github"><a href="#11-发布到github" class="headerlink" title="11.发布到github"></a>11.发布到github</h5><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo d</span><br></pre></td></tr></table></figure>
+<h5 id="12-通过username-github-io进行访问，大功告成"><a href="#12-通过username-github-io进行访问，大功告成" class="headerlink" title="12.通过username.github.io进行访问，大功告成"></a>12.通过<code>username.github.io</code>进行访问，大功告成</h5>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://github.com/Quitintmian/Quitintmian.github.io.git/2021/11/04/hexo%E9%83%A8%E7%BD%B2/" data-id="ckvjvzwv400027sy53o61fojj" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
     <article id="post-测试第一个文章" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/Quitintmian/Quitintmian.github.io.git/2021/11/04/%E6%B5%8B%E8%AF%95%E7%AC%AC%E4%B8%80%E4%B8%AA%E6%96%87%E7%AB%A0/" class="article-date">
@@ -141,7 +186,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://github.com/Quitintmian/Quitintmian.github.io.git/2021/11/04/%E6%B5%8B%E8%AF%95%E7%AC%AC%E4%B8%80%E4%B8%AA%E6%96%87%E7%AB%A0/" data-id="ckvjuusqz0000z4y58pm064iz" class="article-share-link">Share</a>
+      <a data-url="https://github.com/Quitintmian/Quitintmian.github.io.git/2021/11/04/%E6%B5%8B%E8%AF%95%E7%AC%AC%E4%B8%80%E4%B8%AA%E6%96%87%E7%AB%A0/" data-id="ckvjvzwv200017sy59gw59oib" class="article-share-link">Share</a>
       
       
     </footer>
@@ -190,7 +235,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://github.com/Quitintmian/Quitintmian.github.io.git/2021/11/04/hello-world/" data-id="ckvjsbmy800000oy5g2i7b1h2" class="article-share-link">Share</a>
+      <a data-url="https://github.com/Quitintmian/Quitintmian.github.io.git/2021/11/04/hello-world/" data-id="ckvjvzwuy00007sy50zzv76sk" class="article-share-link">Share</a>
       
       
     </footer>
@@ -229,6 +274,10 @@
     <h3 class="widget-title">最新文章</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/Quitintmian/Quitintmian.github.io.git/2021/11/04/hexo%E9%83%A8%E7%BD%B2/">hexo部署</a>
+          </li>
         
           <li>
             <a href="/Quitintmian/Quitintmian.github.io.git/2021/11/04/%E6%B5%8B%E8%AF%95%E7%AC%AC%E4%B8%80%E4%B8%AA%E6%96%87%E7%AB%A0/">测试第一个文章</a>
